@@ -2,9 +2,12 @@
 .logo {
 	display: inline-block;
 	margin: 18px 92px 17px 20px;
+	font-size: 13px;
+	color: #FA6980;
 }
 .navigation {
 	display: inline-block;
+	font-size: 11px;
 }
 .menu {
 	display: inline-block;
@@ -37,6 +40,7 @@
     height: 50px;
     background-color: white;
     z-index: 10;
+    font-family: 'Helvetica';
 }
 /*section 1 styling*/
 .section1 {
@@ -48,8 +52,11 @@
 
 }
 .first-title {
-
+    margin-top: 80px;
 	margin-bottom: 40px;
+	font-family: 'Helvetica';
+	font-size: 24px;
+	font-weight: bold;
 }
 .box1 {
 	display: inline-block;
@@ -69,51 +76,41 @@
 	width: 360px;
 	vertical-align: top;
 }
-.par1 {
-	display: inline-block;
+.par {
 	margin-bottom: 10px;
 	padding-top: 66px;
-	padding-left: 20px;
+	padding-left: 40px;
+	padding-bottom: 8px;
+	font-family: 'Acumin Pro';
+	font-size: 13px;
+	font-weight: normal;
+	width: 280px;
 }
-.par2 {
-	display: inline-block;
-	margin-bottom: 10px;
-	padding-top: 66px;
-	padding-left: 20px;
-}
-.par3 {
-	display: inline-block;
-	margin-bottom: 10px;
-	padding-top: 66px;
-	padding-left: 20px;
-}
-.imagetext1 {
+
+.imagetext {
 	position: relative;
 	display: inline-block;
+	
 }
-.title1 {
+.title {
 	position: absolute;
 	top: 28px;
 	left: 40px;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
 }
-.imagetext2 {
-	position: relative;
-	display: inline-block;
+.timeIcon {
+	margin-left: 40px;
+	vertical-align: middle;
 }
-.title2 {
-	position: absolute;
-	top: 28px;
-	left: 40px;
+.timing {
+	font-size: 13px;
+	vertical-align: middle;
 }
-.imagetext3 {
-	position: relative;
-	display: inline-block;
-}
-.title3 {
-	position: absolute;
-	top: 28px;
-	left: 40px;
-}
+
+
 /*section2 styling*/
 .section2 {
 	margin-right: auto;
@@ -136,6 +133,9 @@
 }
 .second-title {
 	margin-bottom: 40px;
+	font-family: 'Helvetica';
+	font-size: 24px;
+	font-weight: bold;
 }
 .ImageWithPhrase {
 	position: relative;
@@ -146,6 +146,10 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%);
+	font-family: 'Helvetica';
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
 }
 .imageNature{
 	margin-bottom: 102px;
